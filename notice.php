@@ -14,7 +14,7 @@ if(isset($_SESSION["errors"])){
 unset($_SESSION["errors"]);
 
 if(isset($_SESSION["success"])){
-    echo "<div> class='alert alert-success'>";
+    echo "<div class='alert alert-success'>";
     echo $_SESSION['success'];
     echo '</div>';
     unset($_SESSION['success']);
